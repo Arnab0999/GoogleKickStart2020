@@ -21,6 +21,7 @@ int main(){
             for(int j=0;j<=p;j++){
                 dp[i][j] = 0;
                 for(int x=0;x<=min(j,k);x++){
+                    //main statement
                     dp[i][j] = max(dp[i][j], sum[i][x]+dp[i-1][j-x]);
                 }
             }
