@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Needs a little bit of optimization
 int getDiff(vector<int> arr, int n, int k) {
     vector <int> diff;
     for(int i=1;i<n;i++)
